@@ -1,12 +1,5 @@
-//MY THEME COLORS
-$black:  #202020;
-$bgblack:    #333333;
-$background:     #4D4D4D;
-$button:  #F19A3E;
-
-
 //WHITE AND GRAY COLORS
-$white:    #fff;
+$white:   #fff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
@@ -19,8 +12,26 @@ $gray-900: #212529;
 $black:    #000;
 
 
-$primary: $black;
-$secondary: $bgblack;
+
+//MY dark THEME COLORS
+$dark-navbar:          #202020;
+$dark-background:     #4D4D4D;
+$dark-itembackground: #333333;
+$button:         #F19A3E;
+
+//MY white THEME COLORS
+$light-navbar:          $gray-500;
+$light-itembackground:  $gray-400;
+$light-background:      $gray-200;
+
+
+$primary:       $white;
+$secondary:     $dark-background;
+
+
+
+
+
 
 //IMPORT BOOTSRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
