@@ -1,4 +1,19 @@
 
+
+
+function addTheme() {
+  document.body.classList.toggle('dark-theme')
+  var element = document.getElementById("icon");
+  if (element.classList.contains("fa-moon")) {
+    element.classList.remove("fa-moon")
+    element.classList.add("fa-sun")
+  }else {
+    element.classList.remove("fa-sun")
+    element.classList.add("fa-moon")
+  }
+}
+
+
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -54,8 +69,4 @@ var TxtType = function(el, toRotate, period) {
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #F19A3E}";
         document.body.appendChild(css);
-    };
-
-
-
-  
+    }

@@ -10107,35 +10107,22 @@ textarea.form-control-lg {
   color: #F19A3E;
 }
 
-body {
+.dark-theme {
   background-color: #4D4D4D;
   color: #fff;
-}
-
-main {
-  width: 80%;
-  margin: 0 auto;
 }
 
 header {
   text-align: center;
 }
-
-h1 {
+header .typewrite {
+  font-size: 6rem;
   margin: 4rem auto;
-}
-
-h1 a {
-  text-decoration: none;
-}
-
-h1 .typewrite {
-  text-decoration: none;
-  font-size: 5rem;
 }
 
 p {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .social-links a {
